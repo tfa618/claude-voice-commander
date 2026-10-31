@@ -1,0 +1,21 @@
+{
+  "hotkey": "<f4>",
+  "triggers": {
+    "submit": ["enter"],
+    "edit": ["edit"],
+    "clear": ["clear", "cancel"]
+  },
+  "wake_word_enabled": true,
+  "wake_phrases": ["start mic", "start mike", "start mick", "start mic's"],
+  "only_when_claude_focused": true,
+  "target_app_names": ["claude"],
+  "dictation_timeout_seconds": 60,
+  "beep": true,
+  "restore_clipboard": true,
+  "whisper_model": "base.en",
+  "language": "en",
+  "input_device": null,
+  "silence_threshold": 0.012,
+  "pause_seconds": 0.8,
+  "min_speech_seconds": 0.25
+}
